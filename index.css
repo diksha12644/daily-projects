@@ -1,0 +1,55 @@
+.logo {
+    width: 5em;
+    height: 5.5em;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.alarm {
+    background-color: pink;
+    width: 40%;
+    height: 10em;
+    border-radius: 1em;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 2px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    opacity: 1;
+}
+.wish {
+    width: 30em;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    border-radius: 5px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #7c55a1 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 13px;
+    opacity: 0.7;
+}
+span {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) / var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-3d087b);
+    text-align: left;
+    font: normal normal normal 17px / 25px Manrope;
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;
+}
+.setalarm::first-line {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24) / var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal 600 24px / 38px Manrope;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
